@@ -8,7 +8,7 @@ can upload and download files through a Web Application.
 - WebApp
 - Allow users to upload ```/upload```
 - Allow users to download ```/download```
-- Users should be able to login and signup
+- Users should be able to ```/login``` and ```/signup```
 
 ### Constraints
 - RESTful APIs
@@ -27,13 +27,13 @@ can upload and download files through a Web Application.
 - Click on file for preview: should ope the file contents in a new page (Can be restricted to well-known formats: txt, jpg, png, json, etc)
 - login and signup page and autmatic routing based on the login status of the user.
   
-## Technologies
+### Technologies
 - Langauge and framework: Java - Springboot, Python – Django / Fast API, NodeJS – Express (We will go ahead with vert.x with Kotlin, and springboot as backup
 - DB - SQLLite, Mysql, Postgres or MongoDB. (need to decide, for storing files and for storing metadata and user login info)
-- File Storage: AWS s3, Azure storage blob storage, local file system (think of good potential blob storage options. privde adapter/strategy for all)
+- File Storage: AWS s3, Azure storage blob storage, local file system (think of good potential blob storage options. provide adapter/strategy for all)
 - Use Docker ontainser for all DBMs and any exteral service that you're running.
 
-## Secondary Requirements/Features
+### Secondary Requirements/Features
 - OAuth google login, github login, login with email
 - sort by created data, modified date
 - drag and drop files onto a highlighted area (frontend-only)
@@ -43,4 +43,48 @@ can upload and download files through a Web Application.
 - upload folders
 - create folders and organise content
 - duplicate file deteaction by hasing the name and the contents of the file
-- 
+- A progress bar for the storage used till now
+- Dark mode/Light Mode
+- encrypt the files and make the user aware
+- suggested for you field with preview
+- upload multiple folders at once
+- shareble log
+
+### Action Plan
+- [ ] Create architecture diagram on excalidraw
+- [ ] Finalise all frameworks and technology (backend language, framework, front end ui library, blob storage, metdata DB, docker)
+- [ ] Design the home page (blindly copy drop box and make improvements)
+- [ ] Design the signup and login page
+- [ ] Initial docker setup for backend
+- [ ] Setup unit testing
+- [ ] /login & /signup API
+- [ ] Initial docker setup for front end
+- [ ] user login/signup page
+- [ ] user home page
+- [ ] /upload API
+- [ ] /list API
+- [ ] /download API
+- [ ] upload button
+- [ ] list files
+- [ ] download file
+- [ ] upload area
+- [ ] preview file button (click the file)
+
+
+### Hard Problems to be aware of
+- how to preview the file (front end)
+- how to upload the contents of a large file to the server (frontend and backend)
+- which blob storage to choose (for deployment purpose
+- how to download. what headers content type and values to pass while returning the file.
+
+### Things to take care
+- ⁠action plan
+- choose one Hue, different saturations for buttons.
+- ⁠technologies finalise with reasoning
+- ⁠⁠architecture diagram
+- ⁠⁠unit testing approach
+- ⁠⁠deploying on docker
+- ⁠⁠deploying on domain on render
+
+
+
