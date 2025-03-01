@@ -49,9 +49,11 @@ can upload and download files through a Web Application.
 - suggested for you field with preview
 - upload multiple folders at once
 - shareble log
+- pagination for listing all files
+- add caching for faster loading
 
 ### Action Plan
-- [ ] Create architecture diagram on excalidraw
+- [x] Create architecture diagram on excalidraw
 - [ ] Finalise all frameworks and technology (backend language, framework, front end ui library, blob storage, metdata DB, docker)
 - [ ] Design the home page (blindly copy drop box and make improvements)
 - [ ] Design the signup and login page
