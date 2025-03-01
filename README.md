@@ -33,6 +33,14 @@ can upload and download files through a Web Application.
 - File Storage: AWS s3, Azure storage blob storage, local file system (think of good potential blob storage options. provide adapter/strategy for all)
 - Use Docker ontainser for all DBMs and any exteral service that you're running.
 
+### Technology and framework
+- Language: Kotlin
+- Web framework: vertx
+- DB: MongoDB
+- File storage: Local file storage and AWS s3
+- React with typescript
+- UI: 
+
 ### Secondary Requirements/Features
 - OAuth google login, github login, login with email
 - sort by created data, modified date
@@ -77,7 +85,7 @@ can upload and download files through a Web Application.
 - how to preview the file (front end)
 - how to upload the contents of a large file to the server (frontend and backend)
 - which blob storage to choose (for deployment purpose
-- how to download. what headers content type and values to pass while returning the file.
+- how to download. What header content type and values should be passed while returning the file?
 
 ### Things to take care
 - ⁠action plan
