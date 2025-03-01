@@ -38,8 +38,10 @@ can upload and download files through a Web Application.
 - Web framework: vertx
 - DB: MongoDB
 - File storage: Local file storage and AWS s3
-- React with typescript
-- UI: 
+- React with typescript with vite
+- UI: Shadcn + Tailwind
+- Drag and drop: Tailwind + useRef + onDrag events
+- auth framework: auth0: If it doesn't work, fallback to access/refresh token mechanism with google auth login.
 
 ### Secondary Requirements/Features
 - OAuth google login, github login, login with email
@@ -62,9 +64,9 @@ can upload and download files through a Web Application.
 
 ### Action Plan
 - [x] Create architecture diagram on excalidraw
-- [ ] Finalise all frameworks and technology (backend language, framework, front end ui library, blob storage, metdata DB, docker)
-- [ ] Design the home page (blindly copy drop box and make improvements)
-- [ ] Design the signup and login page
+- [x] Finalise all frameworks and technology (backend language, framework, front end ui library, blob storage, metdata DB, docker)
+- [X] Design the home page (blindly copy drop box and make improvements)
+- [X] Design the signup and login page
 - [ ] Initial docker setup for backend
 - [ ] Setup unit testing
 - [ ] /login & /signup API
