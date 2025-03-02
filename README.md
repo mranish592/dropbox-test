@@ -67,8 +67,8 @@ can upload and download files through a Web Application.
 - [x] Finalise all frameworks and technology (backend language, framework, front end ui library, blob storage, metdata DB, docker)
 - [X] Design the home page (blindly copy drop box and make improvements)
 - [X] Design the signup and login page
-- [ ] Initial docker setup for backend
-- [ ] Setup unit testing
+- [x] Initial docker setup for backend
+- [x] Setup unit testing
 - [ ] /login & /signup API
 - [ ] Initial docker setup for front end
 - [ ] user login/signup page
