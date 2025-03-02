@@ -70,9 +70,9 @@ can upload and download files through a Web Application.
 - [x] Initial docker setup for backend
 - [x] Setup unit testing
 - [X] /login & /signup API
-- [ ] Initial docker setup for front end
-- [ ] user login/signup page
-- [ ] user home page
+- [X] Initial docker setup for front end
+- [x] user login/signup page
+- [] user home page
 - [ ] /upload API
 - [ ] /list API
 - [ ] /download API
