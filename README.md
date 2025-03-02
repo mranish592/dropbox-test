@@ -35,7 +35,7 @@ can upload and download files through a Web Application.
 
 ### Technology and framework
 - Language: Kotlin
-- Web framework: vertx
+- Web framework: ktor
 - DB: MongoDB
 - File storage: Local file storage and AWS s3
 - React with typescript with vite
