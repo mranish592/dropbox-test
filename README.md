@@ -69,7 +69,7 @@ can upload and download files through a Web Application.
 - [X] Design the signup and login page
 - [x] Initial docker setup for backend
 - [x] Setup unit testing
-- [ ] /login & /signup API
+- [X] /login & /signup API
 - [ ] Initial docker setup for front end
 - [ ] user login/signup page
 - [ ] user home page
