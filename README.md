@@ -72,10 +72,10 @@ can upload and download files through a Web Application.
 - [X] /login & /signup API
 - [X] Initial docker setup for front end
 - [x] user login/signup page
-- [] user home page
-- [ ] /upload API
-- [ ] /list API
-- [ ] /download API
+- [x] user home page
+- [x] /upload API
+- [x] /list API
+- [x] /download API
 - [ ] upload button
 - [ ] list files
 - [ ] download file
